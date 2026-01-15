@@ -23,11 +23,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Iniciar efeito de digitação após um pequeno delay
     setTimeout(() => {
-        typeWriter(mainTitle, 'Ester', 200);
+        typeWriter(mainTitle, 'Andressa', 200);
     }, 1000);
     
     setTimeout(() => {
-        typeWriter(subtitle, 'Eu te amo', 80);
+        typeWriter(subtitle, 'Eu gosto de voce sua bruaca', 80);
     }, 3000);
     
     // Criar corações flutuantes dinâmicos
@@ -253,9 +253,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    
+    // Easter egg: sequência especial de cliques
     let clickSequence = [];
-    const secretSequence = ['Ester', 'Linda', 'Perfeita', 'Amada'];
+    const secretSequence = ['Andressa', 'Linda', 'Perfeita', 'Amada'];
     
     qualityCards.forEach(card => {
         card.addEventListener('click', function() {
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (JSON.stringify(clickSequence) === JSON.stringify(secretSequence)) {
                 setTimeout(() => {
-                    alert('🎊 EASTER EGG DESCOBERTO! 🎊\nVocê encontrou a sequência secreta! Ester é realmente tudo isso e muito mais! 💖✨');
+                    alert('🎊 EASTER EGG DESCOBERTO! 🎊\nVocê encontrou a sequência secreta! Andressa é realmente tudo isso e muito mais! 💖✨');
                     createFireworks();
                     createPetalRain();
                 }, 300);
@@ -312,5 +312,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     console.log('💖 Site de declaração de amor carregado com sucesso! 💖');
-    console.log('🌟 Ester, você é realmente especial! 🌟');
+    console.log('🌟 Andressa, você é realmente especial! 🌟');
 });
