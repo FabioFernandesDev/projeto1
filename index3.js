@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Iniciar efeito de digitação após um pequeno delay
     setTimeout(() => {
-        typeWriter(mainTitle, 'Ester', 200);
+        typeWriter(mainTitle, 'Andresa', 200);
     }, 1000);
     
     setTimeout(() => {
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     
     let clickSequence = [];
-    const secretSequence = ['Ester', 'Linda', 'Perfeita', 'Amada'];
+    const secretSequence = ['Andresa', 'Linda', 'Perfeita', 'Amada'];
     
     qualityCards.forEach(card => {
         card.addEventListener('click', function() {
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (JSON.stringify(clickSequence) === JSON.stringify(secretSequence)) {
                 setTimeout(() => {
-                    alert('🎊 EASTER EGG DESCOBERTO! 🎊\nVocê encontrou a sequência secreta! Ester é realmente tudo isso e muito mais! 💖✨');
+                    alert('🎊 EASTER EGG DESCOBERTO! 🎊\nVocê encontrou a sequência secreta! Andresa é realmente tudo isso e muito mais! 💖✨');
                     createFireworks();
                     createPetalRain();
                 }, 300);
@@ -312,5 +312,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     console.log('💖 Site de declaração de amor carregado com sucesso! 💖');
-    console.log('🌟 Ester, você é realmente especial! 🌟');
+    console.log('🌟 Andresa, você é realmente especial! 🌟');
 });
